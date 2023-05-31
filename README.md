@@ -19,5 +19,5 @@ Spiele Auswahl lässt dich verschieden Spiele spielen.
 Konto lässt dich dein Konto managen.
 Beenden beendet das Programm.
 
-Zum starten startseite() ausführen.
+Zum starten "startseite()" ausführen.
 
