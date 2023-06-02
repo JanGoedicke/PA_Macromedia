@@ -4,8 +4,8 @@ ProjektArbeit S2 Aufbaumodul Programmieren
 
 ⎪-------------------------------------------⎪
 
-Online Casino Simulation als Projektarbeit
-Beginnt mit Login Screen, wo man:
+Casino-Simulation als Projektarbeit
+beginnt mit Loginscreen, wo man:
 
 
 -Konto anlegen kann
