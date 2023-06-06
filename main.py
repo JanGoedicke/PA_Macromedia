@@ -6,7 +6,7 @@ def konto_erstellen():
     name = input("Geben Sie Ihren Namen ein: ")
     passwort = input("Geben Sie Ihr Passwort ein: ")
     balance = 0
-
+    # Funktionsweise von folgenden Code von ChatGPT ↓
     konto = {
         "name": name,
         "passwort": passwort,
