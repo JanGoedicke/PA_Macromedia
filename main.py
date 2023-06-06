@@ -56,5 +56,5 @@ def startseite():
         else:
             print("Ungültige Eingabe. Bitte wählen Sie erneut.")
 
-
-startseite()
+if __name__ == '__main__':
+    startseite()

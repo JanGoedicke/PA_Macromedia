@@ -29,7 +29,7 @@ class Casino:
     def show_games(self):
         print("Wählen sie ein Spiel")
         print(" (a) BlackJack-Lite ")
-        print(" (b)Roulett-Lite")
+        print(" (b) Roulett-Lite")
         print(" (c) Zurück zum Menue")
         game_wahl = input()
 
@@ -104,8 +104,8 @@ class Blackjack:
         print("Deine Hand:", self.Spieler)
         print("Dealers Hand:", self.Dealer)
         print(result)
-        casino_instanze = Casino()
-        casino_instanze.show_games()
+        # casino_instanze = Casino()
+        # casino_instanze.show_games()
 
 
     def start_game(self):
@@ -124,15 +124,15 @@ class Blackjack:
         dealer_value = self.hand_value(self.Dealer)
 
         if dealer_value > 21:
-            self.end("Dealer über 21, Du gewinnst")
             self.win_bet()
+            self.end("Dealer über 21, Du gewinnst")
         elif player_value > 21:
             self.end( " Du bist über 21, Dealer gewinnt, deine Wette geht an die Bank")
         elif player_value < dealer_value:
             self.end("Dealer gewinnt, deine Wette geht an die Bank")
         elif player_value > dealer_value:
-            self.end("Du gewinnst")
             self.win_bet()
+            self.end("Du gewinnst")
         else:
            self.end("Unentschieden ") #BANK GEWINNT?
 
