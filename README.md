@@ -4,34 +4,34 @@ ProjektArbeit S2 Aufbaumodul Programmieren
 
 ⎪-------------------------------------------⎪
 
-Casino-Simulation als Projektarbeit
-beginnt mit Loginscreen, wo man:
+Casino Simulation for my
+start with a login screen where you can:
 
 
--Konto anlegen kann
+-Creat an Account
 
 
--Einloggen kann
+-Loggin to that Account
 
 
--Programm beenden kann
+-End the programm
 
-Nach dem Einloggen wird man auf die Casino ebene geführt, wo man zwischen 3 Funktionen wählen kann:
-
-
--Spiele Auswahl
+After the Login you will get directed to the Casino-Menue, where you can chose between 3 functinos
 
 
--Konto
+-Chose game
 
 
--Beenden
+-Account
 
-Spiele Auswahl lässt dich verschieden Spiele spielen.
 
-Konto lässt dich dein Konto managen.
+-End
 
-Beenden beendet das Programm.
+-Chose game functino lets you chose bewtween 2 games
 
-Zum starten "startseite()" ausführen.
+-Account lets you chose between diffrent account options
+
+-End ends the Programm
+
+To start: ######
 
