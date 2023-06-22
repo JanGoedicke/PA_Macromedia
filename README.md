@@ -9,22 +9,22 @@ Overview:
  
  You will start in a Menue where you can:
  
- -Create an Account
+ - Create an Account
  
- -Login to an Account(If you have created one)
+ - Login to an Account(If you have created one)
  
- -End the Programm
+ - End the Programm
  
  The Accounts will be saved in a JSON Document called Konto.json.
 
 
 if you login successfully you will be brought into the casino menu where you can:
 
--Manage your Account Ballance
+- Manage your Account Ballance
 
--Show the possible Games
+- Show the possible Games
 
--End the menu
+- End the menu
 
 
 There Are 2 Possible Games, Black Jack, and Roulette you can play.
@@ -51,13 +51,13 @@ Make sure they are in the same folder.
 Usage:
 
 
--Create an Account in the first menu
+- Create an Account in the first menu
 
--Login to that Account 
+- Login to that Account 
 
--Charge your Ballance in the Ballance Menue
+- Charge your Ballance in the Ballance Menue
 
--Chose a game you wanna play and place your bet
+- Chose a game you wanna play and place your bet
 
 
 License:
@@ -67,9 +67,9 @@ License:
 
 Errors:
 
--Sometimes there is an issue with the JSON Data, make sure the first line isn't empty after you already created  an Account 
+- Sometimes there is an issue with the JSON Data, make sure the first line isn't empty after you already created  an Account 
 
--If you type no Int Vallues in the bet function you will have to start from the beginning 
+- If you type no Int Vallues in the bet function you will have to start from the beginning 
 
 - Sometimes after a Win or loss in a game it will kick you back to the Login screen
 
