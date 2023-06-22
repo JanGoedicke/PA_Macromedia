@@ -1,8 +1,6 @@
-{"name": "Jan", "passwort": "Test", "balance": -3300.0}
-{"name": "Betty", "passwort": "Test", "balance": 0}
+{"name": "Jan", "passwort": "123", "balance": -3150}
+{"name": "1", "passwort": "1", "balance": 50.0}
 {"name": "Jan", "passwort": "Test", "balance": 0}
-{"name": "Jan", "passwort": "Test", "balance": 0}
-{"name": "Jochen", "passwort": "Test", "balance": 0}
-0}
+{"name": "TestF", "passwort": "TestF", "balance": 200.0}
 
-{"name": "c", "passwort": "c", "balance": 0}
+

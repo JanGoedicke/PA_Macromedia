@@ -1,12 +1,12 @@
 import json
 import casino
 
-
+#Kontoerstellen welches in einer Json als string gespeichert wird
 def konto_erstellen():
     name = input("Geben Sie Ihren Namen ein: ")
     passwort = input("Geben Sie Ihr Passwort ein: ")
     balance = 0
-    # Funktionsweise von folgenden Code von ChatGPT ↓
+
     konto = {
         "name": name,
         "passwort": passwort,
@@ -14,12 +14,11 @@ def konto_erstellen():
     }
 
     with open("konten.json", "a") as datei:
-        json.dump(konto, datei)
-        datei.write('\n')
+        datei.write(json.dumps(konto) + '\n')
 
     print("Konto erfolgreich erstellt.")
 
-
+# JSON datei wird nach dem Namen + Passwort überprüft
 def einloggen():
     name = input("Geben Sie Ihren Namen ein: ")
     passwort = input("Geben Sie Ihr Passwort ein: ")
@@ -27,17 +26,18 @@ def einloggen():
     with open("konten.json", "r") as datei:
         konten = datei.readlines()
 
-    for konto in konten:
-        konto = json.loads(konto)
+    for konto_str in konten:
+        konto = json.loads(konto_str)
         if konto["name"] == name and konto["passwort"] == passwort:
             print("Erfolgreich eingeloggt.")
             casino_instanze = casino.Casino()
             casino_instanze.menue()
-
             return
-    print("Falscher Benutzername oder Passwort.")
+
+        print("Passwort oder Benutzername falsch. Bitte versuchen Sie es erneut.")
 
 
+# Startseite wo durch die Eingabe von a,b,c jeweils andere Funktionen des Programm ausgeführt werden
 def startseite():
     while True:
         print("Login Heaven Casino")
@@ -55,6 +55,7 @@ def startseite():
             break
         else:
             print("Ungültige Eingabe. Bitte wählen Sie erneut.")
+
 
 if __name__ == '__main__':
     startseite()
