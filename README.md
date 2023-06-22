@@ -1,6 +1,6 @@
 PA_Macromedia
 
-Overviwe:
+Overview:
 
  This is a small and simple Casino game where you can play 2 different games and can manage your Account.
 
